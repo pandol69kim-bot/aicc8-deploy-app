@@ -1,0 +1,6 @@
+const router = require('express').Router()
+const { getTasks } = require('../controllers/getControllers')
+
+// :userId -> 정해지지 않은 문자열
+router.get('/get_tasks/:userId', getTasks)
+module.exports = router
