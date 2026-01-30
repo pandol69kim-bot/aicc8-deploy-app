@@ -6,8 +6,8 @@ import ItemPanel from '../Common/ItemPanel';
 const index = () => {
   return (
     <div>
-      <NaviBar />
-      <ItemPanel />
+      {/* <NaviBar /> */}
+      <ItemPanel pageTitle="Completed Items" />
     </div>
   );
 };

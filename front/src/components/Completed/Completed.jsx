@@ -1,5 +1,6 @@
 import React from 'react';
 
-export const Completed = () => {
+const Completed = () => {
   return <div>Completed</div>;
 };
+export default Completed;
