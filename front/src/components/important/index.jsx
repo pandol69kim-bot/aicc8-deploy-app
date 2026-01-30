@@ -1,4 +1,6 @@
 import React from 'react';
+import NaviBar from '../Common/NaviBar';
+import ItemPanel from '../Common/ItemPanel';
 
 export const index = () => {
   return (
@@ -8,3 +10,4 @@ export const index = () => {
     </div>
   );
 };
+export default index;

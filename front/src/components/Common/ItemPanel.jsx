@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ItemPanel = () => {
+const ItemPanel = () => {
   return (
     <div className="panel bg-[] w-4/5 h-full rounded-md border border-gray-500 py-5 px-4 overflow-y-auto">
       <div className="login-message w-full items-center justify-center">
@@ -13,3 +13,4 @@ export const ItemPanel = () => {
     </div>
   );
 };
+export default ItemPanel;

@@ -1,15 +1,14 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Completed from './components/Completed/Completed';
-import NaviBar from './components/Common/NaviBar';
-
-const Home = () => <div>Home</div>;
+import Home from './components/Home';
+import Completed from './components/Completed';
+import Important from './components/Important';
+import Proceeding from './components/Proceeding';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="flex h-screen">
-        <NaviBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/completed" element={<Completed />} />
