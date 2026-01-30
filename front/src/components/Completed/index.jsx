@@ -1,0 +1,13 @@
+import React from 'react';
+import './App.css';
+import { NaviBar } from '../Common/NaviBar';
+import { ItemPanel } from '../Common/ItemPanel';
+
+export const index = () => {
+  return (
+    <div>
+      <NaviBar />
+      <ItemPanel />
+    </div>
+  );
+};
