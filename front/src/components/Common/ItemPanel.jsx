@@ -9,7 +9,9 @@ const ItemPanel = ({ pageTitle }) => {
   const state = useSelector((state) => state.auth.authData);
   const userKey = state?.sub;
 
-  const isOpen = useSelector((state) => state.dodal.isOpen);
+  const isOpen = useSelector((state) => state.modal.isOpen);
+
+  console.log(isOpen);
 
   return (
     <div className="panel bg-[] w-4/5 h-full rounded-md border border-gray-500 py-5 px-4 overflow-y-auto">

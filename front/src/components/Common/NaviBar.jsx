@@ -21,6 +21,7 @@ const Navbar = () => {
 
   const handleLoginSuccess = useCallback(
     (credentialResponse) => {
+      console.log(credentialResponse);
       try {
         const decoded = jwtDecode(credentialResponse.credential);
         dispatch(login({ authData: decoded }));
